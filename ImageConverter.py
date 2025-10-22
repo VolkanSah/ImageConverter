@@ -9,12 +9,6 @@
 # ==============================================================================
 import sys
 import os
-# ... rest of your imports
-from PySide6.QtWidgets import (
-# ... rest of your PySide6 imports
-
-import sys
-import os
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QTextEdit, QPushButton, QFileDialog, QLineEdit, QCheckBox, QLabel, 
