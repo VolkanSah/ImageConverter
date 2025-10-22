@@ -1,6 +1,17 @@
-# Image Converter (WebP to JPG/PNG)
-# Copyright Volkan Sah & Gemini 2.5 Flash!
-# https://github.com/VolkanSah/ImageConverter/
+# ==============================================================================
+# PySide6 WebP Batch Converter
+# ------------------------------------------------------------------------------
+# Workflow inspired by a lazy day and a collaboration with Google's Gemini AI.
+# The stable PySide6 implementation was chosen over the buggy Gradio prototype.
+#
+# Original Creator/Concept: Volkan (Sah) Kücükbudak
+# AI Contributor / PySide6 Implementation Guide: Google Gemini
+# ==============================================================================
+import sys
+import os
+# ... rest of your imports
+from PySide6.QtWidgets import (
+# ... rest of your PySide6 imports
 
 import sys
 import os
