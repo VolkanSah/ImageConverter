@@ -1,5 +1,7 @@
 # WebP Batch Converter (PySide6)
 
+![Image Converter UI](img-ui.jpg)
+
 Small tool that can make your life easier\! We all have JPG/PNG to WebP converters, but sometimes you need the reverse. I was so lazy. I gave **Gemini** my old-school script and asked it to build a UI.
 
 ## The Workflow Story
@@ -24,6 +26,8 @@ from PySide6.QtWidgets import (
   * **Fast Batch Processing:** Convert hundreds of `.webp` files locally without freezing the UI (thanks to PySide6 threading).
   * **WebP → PNG:** **Lossless** conversion, preserves transparency.
   * **WebP → JPG:** Best quality (`quality=100`, subsampling off). Transparency is converted to white.
+
+
 
 
 ###  Credits
